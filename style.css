@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #091117;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 8px 128px;
+    flex-shrink: 1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f0b031;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f0b031;
+}
+
+.main {
+    background-color: #091117;
+    padding: 64px 128px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.intro {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.herohead {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f0b031;
+    margin-bottom: 12px;
+}
+
+.heropar {
+    font-size: 18px;
+    color: #f0b031;
+    margin-bottom: 20px;
+}
+
+.heroimg {
+    height: 300px;
+    width: min-content;
+    border-radius: 10%;
+    border: 1px solid #ec3127;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    color: #f0b031;
+    border: none;
+    border-radius: 8px;
+    background: #474921;
+    padding: 8px 16px;
+    align-self: center;
+}
+
+.pictures {
+    background: #ec3127;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
