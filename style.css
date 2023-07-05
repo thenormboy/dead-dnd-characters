@@ -172,7 +172,9 @@ button {
 
 .signup {
     background: #ec3127;
-    padding: 80px 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action {
@@ -183,6 +185,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px;
+    margin: 48px auto;
 }
 
 .actionhead{
