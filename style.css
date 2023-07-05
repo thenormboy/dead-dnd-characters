@@ -87,4 +87,58 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 128px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-basis: 200px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #f0b031;
+    margin-bottom: 32px;
+}
+
+.container img {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #f0b031;
+    border-radius: 5%;
+    margin-bottom: 12px;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    color:#091117;
+    font-size: 18px;
+}
+
+.quote {
+    background: #474921;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 256px;
+}
+
+.quoteact {
+    color: #f0b031;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quoteatt {
+    color: #f0b031;
+    align-self: flex-end;
 }
