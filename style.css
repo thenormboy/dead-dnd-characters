@@ -70,6 +70,13 @@ a {
     border: 1px solid #ec3127;
 }
 
+.imgtitle {
+    text-align: center;
+    color: #f0b031;
+    font-weight: 200;
+    font-size: 12px;
+}
+
 button {
     height: fit-content;
     width: fit-content;
