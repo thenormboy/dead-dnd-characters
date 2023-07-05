@@ -9,7 +9,6 @@ body {
     background: #091117;
     display: flex;
     justify-content: space-between;
-    flex: 1;
     padding: 8px 128px;
     flex-shrink: 1;
 }
@@ -39,6 +38,7 @@ a {
 .main {
     background-color: #091117;
     padding: 64px 128px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -88,6 +88,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 40px 128px;
+    padding-bottom: 80px;
 }
 
 .container {
@@ -105,8 +106,8 @@ button {
 }
 
 .container img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 4px solid #f0b031;
     border-radius: 5%;
     margin-bottom: 12px;
@@ -120,7 +121,7 @@ button {
 
 .text {
     text-align: center;
-    color:#091117;
+    color:#f0b031;
     font-size: 18px;
 }
 
@@ -128,7 +129,7 @@ button {
     background: #738684;
     display: flex;
     flex-direction: column;
-    padding: 64px 256px;
+    padding: 100px 256px;
 }
 
 .quoteact {
@@ -141,25 +142,45 @@ button {
 .quoteatt {
     color: #091117;
     align-self: flex-end;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .signup {
     background: #ec3127;
-    padding: 40px 128px;
+    padding: 80px 128px;
 }
 
 .action {
     background: #474921;
-    padding: 16px 32px;
+    padding: 32px 48px;
+    border: 5px solid #f0b031;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
 
+.actionhead{
+    font-size: 18px;
+    font-weight: 500;
+    color: #f0b031;
+    margin-bottom: 4px;
+}
+
+.actionpar {
+    color: #f0b031;
+    font-weight: 200;
+}
+
+.action button {
+    border: 2px solid #f0b031;
+    padding: 8px 16px;
+}
+
 .footer {
     background: #091117;
     color: #f0b031;
-    padding: 24px 128px;
+    padding: 32px 128px;
     display: flex;
     justify-content: center;
     align-items: center;
